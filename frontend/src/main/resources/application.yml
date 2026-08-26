@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: todo-frontend
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+
+server:
+  port: 8080
+
+backend:
+  url: http://todo-backend:8080
