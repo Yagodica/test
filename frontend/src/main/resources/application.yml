@@ -11,3 +11,9 @@ server:
 
 backend:
   url: http://todo-backend:8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
